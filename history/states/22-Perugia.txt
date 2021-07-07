@@ -1,0 +1,13 @@
+state={
+	id=22
+	name="Perugia"
+	history={
+		owner = ITA
+		add_core_of = ITA
+	}
+	provinces={
+		3149 6224 6405 6933 8104 8194 10256 10755 10771 15417 15533 15543 15639 15640 15664 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+}

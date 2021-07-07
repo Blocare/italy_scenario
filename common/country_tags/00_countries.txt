@@ -1,0 +1,4 @@
+ITA = "countries/Italy.txt"
+KUW = "countries/Kuwait.txt"
+SWI = "countries/Switzerland.txt"
+GER = "countries/Germany.txt"

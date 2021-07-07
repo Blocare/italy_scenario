@@ -1,0 +1,17 @@
+state= {
+	id=3
+	name="Sicily West" # SicilyWest
+	manpower = 10
+	
+	state_category = city
+
+	history=
+	{
+		owner = ITA
+		add_core_of = ITA
+	}
+
+    provinces= {
+		8408 11252 16630 3664 7473 16643 10207 7558 10493 16631 3945 16598 16663 721 1279 3342 8728 3068 16637 16593
+ 	}
+}

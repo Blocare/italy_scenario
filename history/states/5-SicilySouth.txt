@@ -1,0 +1,17 @@
+state= {
+	id=5
+	name="Sicily South"
+	manpower = 10
+	
+	state_category = city
+
+	history=
+	{
+		owner = ITA
+		add_core_of = ITA
+	}
+
+    provinces= {
+        852 10442 11152 8251 16675 16683 10345 16676 16684 16666 9568 5431 9625 6513 16692 10902 16668
+ 	}
+}

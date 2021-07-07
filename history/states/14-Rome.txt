@@ -1,0 +1,14 @@
+state={
+	id=14
+	name="Rome"
+	state_category = city
+	history={
+		owner = ITA
+		add_core_of = ITA
+	}
+	provinces={
+		627 632 1195 2287 3776 4890 5862 6163 6841 7840 8383 8884 8894 9138 9773 10011 10637 15567 15688 15706 15709 15734 15747 15766 15850 15851 15883 15887 15914 15950 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+}

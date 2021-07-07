@@ -1,0 +1,17 @@
+state= {
+	id=4
+	name="Sicily East"
+	manpower = 10
+	
+	state_category = city
+
+	history=
+	{
+		owner = ITA
+		add_core_of = ITA
+	}
+
+    provinces= {
+		16621 7768 16617 7576 8127 16596 16577 11155 16589 8701 10710 1828 4237 16648 16639
+ 	}
+}

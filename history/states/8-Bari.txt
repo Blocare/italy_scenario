@@ -1,0 +1,17 @@
+state={
+	id=8
+	name="Bari"
+	manpower = 10
+	
+	state_category = city
+	
+	history={
+		owner = ITA
+		add_core_of = ITA
+
+	}
+	provinces={
+		2908 3061 3964 4223 5445 7782 8164 8899 9018 10027 10817 16026 16047 16058 16069 16088 16089 16116 16124 16134 16163 16191 16226 16227 16243 16260 
+	}
+	buildings_max_level_factor=1.000
+}

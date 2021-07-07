@@ -1,0 +1,18 @@
+state={
+	id=7
+	name="Foggia"
+
+	manpower = 10
+	
+	state_category = city
+	
+	history={
+		owner = ITA
+		add_core_of = ITA
+
+	}
+	provinces={
+		530 2499 5513 5603 5723 5907 9155 10862 15798 15801 15844 15856 15873 15884 15900 15910 15952 15985 
+	}
+	buildings_max_level_factor=1.000
+}

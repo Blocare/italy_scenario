@@ -1,0 +1,14 @@
+state={
+	id=23
+	name="STATE_23"
+	history={
+		owner = ITA
+		add_core_of = ITA
+
+	}
+	provinces={
+		2827 4477 4606 5297 7732 8105 8889 10095 15338 15381 15407 15444 15453 15487 15520 15556 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

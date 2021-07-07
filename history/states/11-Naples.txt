@@ -1,0 +1,14 @@
+state={
+	id=11
+	state_category = city
+	name="Naples"
+	history={
+		owner = ITA
+		add_core_of = ITA
+	}
+	provinces={
+		135 2570 4208 6466 6744 8950 8956 10642 11346 15942 15984 16010 16031 16049 16063 16081 16082 16086 16123 16148 16181 16214 16217 15951 15946
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+}

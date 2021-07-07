@@ -1,0 +1,13 @@
+state={
+	id=21
+	name="L'Aquila"
+		history={
+		owner = ITA
+		add_core_of = ITA
+	}
+	provinces={
+		1975 2843 3903 5344 5533 6534 7240 7745 8409 8895 9462 9517 9525 15627 15701 15738 15752 15755 15772 15793 15797 15843 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

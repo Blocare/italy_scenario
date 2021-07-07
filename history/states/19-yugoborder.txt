@@ -1,0 +1,13 @@
+state={
+	id=19
+	name="yugoborder"
+	history={
+		owner = ITA
+		add_core_of = ITA
+	}
+	provinces={
+		200 557 990 1428 5535 7589 8750 9378 10957 11272 14821 14850 14987 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+}

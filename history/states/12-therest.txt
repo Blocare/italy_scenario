@@ -1,0 +1,18 @@
+
+state={
+	id=12
+	name="therest"
+	state_category = city
+	history={
+		owner = ITA
+		add_core_of = ITA
+
+	}
+
+	provinces={
+		1623 2698 3413 4108 5460 6246 6861 7344 8635 9056 9813 9924 10630 10991 11073 11193 11348 14738 14756 14767 14779 14785 14801 14827 14837 14839 14854 14860 14877 14901 14953
+	}
+
+	manpower=10
+	buildings_max_level_factor=1.000
+}
