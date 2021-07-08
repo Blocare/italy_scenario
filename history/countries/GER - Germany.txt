@@ -4,6 +4,36 @@ oob = ""
 
 set_fuel_ratio = 0.8
 
+set_research_slots = 5
+set_stability = 0.75 
+set_war_support = 0.7
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 10
+	fascism = 85
+	communism = 5
+}
+
+create_country_leader = {
+	name = "Adolf Hitler"
+	desc = "POLITICS_ADOLF_HITLER_DESC"
+	picture = "Portrait_Germany_Adolf_Hitler.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		dictator
+	}
+}
+
+create_faction = Axis
+add_to_faction = GER
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

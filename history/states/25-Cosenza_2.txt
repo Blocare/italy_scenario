@@ -1,0 +1,14 @@
+state={
+	id=25
+	name="Cosenza_West"
+	history=
+	{
+		owner = KOI
+		add_core_of = KOI
+	}
+	provinces={
+		1681 7837 8677 16529 16559 16569 16575 16586 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

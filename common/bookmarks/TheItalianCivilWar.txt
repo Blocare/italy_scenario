@@ -1,0 +1,43 @@
+bookmarks = {
+	bookmark = {
+		name = "ITA_CIVILWAR_NAME"
+		desc = "ITA_CIVILWAR_DESC"
+		date = 1943.9.8.12
+		picture = "GFX_select_date_1943"
+		default_country = "GER"
+		default = yes
+		
+		"GER"={
+			history = "GER_ITA_CIVILWAR"
+			ideology = fascism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+        }
+        		
+		"ITA"={
+			history = "ITA_ITA_CIVILWAR"
+			ideology = fascism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+        }
+        		
+		"KOI"={
+			history = "KOI_ITA_CIVILWAR"
+			ideology = neutral
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+        }
+}
+

@@ -1,17 +1,16 @@
 state={
 	id=10
-	name="Something"
+	name="Campobasso"
 	manpower = 10
 	
 	state_category = city
 	history={
 		owner = ITA
 		add_core_of = ITA
-
 	}
 
 	provinces={
-		2335 7529 9093 15827 15894 
+		2335 7529 9093 15827 15894 3413
 	}
 	buildings_max_level_factor=1.000
 }

@@ -7,8 +7,8 @@ state= {
 
 	history=
 	{
-		owner = ITA
-		add_core_of = ITA
+		owner = KOI
+		add_core_of = KOI
 	}
 
     provinces= {

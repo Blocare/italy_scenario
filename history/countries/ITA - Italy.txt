@@ -1,4 +1,4 @@
-﻿capital = 2
+﻿capital = 14
 
 oob = ""
 
@@ -6,6 +6,32 @@ set_research_slots = 4
 set_stability = 0.6
 set_war_support = 0.7
 add_ideas = {
+}
+
+GER = { add_to_faction = ITA }
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Benito Mussolini"
+	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
+	picture = "Portrait_Italy_Benito_Mussolini.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		dictator
+	}
+}
+
+set_popularities = {
+	democratic = 4
+	fascism = 94
+	communism = 2
 }
 
 # Starting tech
@@ -31,4 +57,17 @@ set_technology = {
 	fuel_silos = 1
 	fuel_refining = 1
 }
+
+create_field_marshal = {
+	name = "Rodolfo Graziani"
+	picture = "portrait_italy_radolfo_graziani.dds"
+	traits = { offensive_doctrine politically_connected trait_cautious }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+
 }
