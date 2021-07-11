@@ -1,0 +1,186 @@
+﻿capital = 26
+
+set_oob = ""
+
+set_research_slots = 4
+
+set_stability = 0.6
+set_war_support = 0.7
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	#improved_light_tank = 1  # PLACEHOLDER
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
+	early_fighter = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	CAS1 = 1
+	
+	trench_warfare = 1
+
+	
+	fleet_in_being = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+
+set_convoys = 800
+
+# DIPLOMACY
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = RAJ
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}
+	set_autonomy = {
+		target = CAN
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+
+	else = {
+		puppet = MAL
+		puppet = RAJ
+	}
+}
+
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = yes ##suspended through duration of war, which is handled via event
+}
+set_popularities = {
+	democratic = 97
+	fascism = 2
+	communism = 1
+}
+
+
+create_faction = Allies
+add_to_faction = ENG
+add_to_faction = FRA
+add_to_faction = CAN
+add_to_faction = RAJ
+add_to_faction = USA
+add_to_faction = KOI
+
+
+# Order matters - here Chamberlain becomes starting leader
+
+create_country_leader = {
+	name = "Winston Churchill"
+	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
+	picture = "Portrait_Britain_Winston_Churchill.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#traits here need to also be added to events britain.9 and britain.10. Don't ask why.
+	}
+}
+
+
+create_country_leader = {
+	name = "Stanley Baldwin"
+	desc = "POLITICS_STANLEY_BALDWIN_DESC"
+	picture = "gfx//leaders//ENG//Portrait_Britain_Stanley_Baldwin.dds"
+	expire = "1938.1.1"
+	ideology = liberalism
+	traits = {
+		conservative_grandee
+	}
+}
+
+#create_country_leader = {
+#	name = "Neville Chamberlain"
+#	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+#	picture = "Portrait_Britain_Neville_Chamberlain.dds"
+#	expire = "1965.1.1"
+#	ideology = liberalism
+#	traits = {
+#		
+#	}
+#}
+
+create_country_leader = {
+	name = "Oswald Mosley"
+	desc = "POLITICS_OSWALD_MOSLEY_DESC"
+	picture = "Portrait_Britain_Oswald_Mosley.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		champion_of_peace_1
+		economic_reformer
+	}
+}
+
+create_country_leader = {
+	name = "Harry Pollitt"
+	desc = "POLITICS_HARRY_POLLITT_DESC"
+	picture = "portrait_eng_harry_pollitt.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		staunch_stalinist
+	}
+}
+
+#create_country_leader = {
+#	name = "Rajani Palme Dutt"
+#	desc = "POLITICS_PALME_DUTT_DESC"
+#	picture = "Portrait_Britain_Palme_Dutt.dds"
+#	expire = "1965.1.1"
+#	ideology = leninism
+#	traits = {
+#		
+#	}
+#}
+
+create_corps_commander = {
+	name = "Harold Alexander" # Aristocrat
+	id = 995
+	picture = "Portrait_Britain_Harold_Alexander.dds"
+	traits = { politically_connected }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 5
+}
+create_field_marshal = {
+	name = "Bernard Montgomery" # Aristocrat
+	id = 996
+	picture = "Portrait_Britain_Bernard_Montgomery.dds"
+	traits = { logistics_wizard offensive_doctrine media_personality trait_cautious inflexible_strategist organizer }
+	skill = 4 
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
+}

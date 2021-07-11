@@ -1,0 +1,14 @@
+state={
+	id=37
+	name="US4"
+			history={
+		owner = USA
+		add_core_of = USA
+
+	}
+	provinces={
+		1638 2223 2476 5896 10878 10948 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

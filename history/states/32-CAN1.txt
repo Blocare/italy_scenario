@@ -1,0 +1,14 @@
+state={
+	id=32
+	name="CAN1"
+		history={
+		owner = CAN
+		add_core_of = CAN
+
+	}
+	provinces={
+		8621 9889 16899 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

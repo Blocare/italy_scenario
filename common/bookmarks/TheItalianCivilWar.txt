@@ -39,5 +39,56 @@ bookmarks = {
 
 			}
         }
+		"USA"={
+			history = "USA_ITA_CIVILWAR"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+        }
+		"ENG"={
+			history = "ENG_ITA_CIVILWAR"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+        }
+		"RAJ"={
+			history = "RAJ_ITA_CIVILWAR"
+			ideology = neutral
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+        }
+		"CAN"={
+			history = "CAN_ITA_CIVILWAR"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+        }
+		"FRA"={
+			history = "FRA_ITA_CIVILWAR"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+        }
+		
 }
 

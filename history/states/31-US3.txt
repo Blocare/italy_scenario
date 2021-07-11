@@ -1,0 +1,14 @@
+state={
+	id=31
+	name="US3"
+			history={
+		owner = USA
+		add_core_of = USA
+
+	}
+	provinces={
+		5453 5740 5773 10859 16729 16737 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,14 @@
+state={
+	id=28
+	name="US2"
+			history={
+		owner = USA
+		add_core_of = USA
+
+	}
+	provinces={
+		1226 5109 8687 8787 10574 16698 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+}

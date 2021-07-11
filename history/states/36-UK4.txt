@@ -1,0 +1,14 @@
+state={
+	id=36
+	name="UK4"
+			history={
+		owner = ENG
+		add_core_of = ENG
+
+	}
+	provinces={
+		202 1365 4997 7930 16770 16779 16795 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

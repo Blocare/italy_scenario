@@ -1,0 +1,15 @@
+state={
+	id=38
+	name="US5"
+	history={
+		owner = USA
+		add_core_of = USA
+
+	}
+	provinces={
+		1429 2233 6961 10612 16720 16742 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
+

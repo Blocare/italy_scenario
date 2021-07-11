@@ -1,0 +1,161 @@
+﻿capital = 27
+
+oob = ""
+
+
+
+add_political_power = 1199
+
+
+	set_technology = {
+		fighter1 = 1
+		cv_fighter1 = 1
+		heavy_fighter1 = 1
+		tactical_bomber1 = 1
+		CAS2 = 1
+		strategic_bomber1 = 1
+		basic_light_tank = 1
+		interwar_artillery = 1
+		interwar_antitank = 1
+		infantry_weapons2 = 1
+		support_weapons = 1
+		support_weapons2 = 1
+		marines = 1
+
+		#doctrines
+		#Air
+		air_superiority = 1
+		infrastructure_destruction = 1
+		naval_strike_tactics = 1
+
+		sup_delay = 1
+		submarine_operations_bs = 1
+		carrier_primacy = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+		basic_encryption = 1
+		basic_decryption = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		synth_oil_experiments = 1
+		oil_processing = 1
+		fuel_refining2 = 1
+		fuel_refining3 = 1
+		construction1 = 1
+		construction2 = 1
+		construction3 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+		dispersed_industry3 = 1
+	}
+
+
+	
+
+
+
+
+
+set_convoys = 200
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 99
+	communism = 1
+}
+
+add_ideas = {
+	undisturbed_isolation
+	great_depression
+	disarmed_nation
+	free_trade
+	home_of_the_free
+}
+
+
+# DIPLOMACY
+set_autonomy = {
+	target = PHI
+	autonomous_state =  autonomy_puppet
+}
+
+1939.1.1 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1936.11.3"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+}
+
+create_country_leader = {
+	name = "Franklin Delano Roosevelt"
+	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	picture = "Portrait_USA_Franklin_Roosevelt.dds"
+	expire = "1947.1.1"
+	ideology = liberalism
+	traits = {
+		dislikes_germany
+	}
+}
+
+create_country_leader = {
+	name = "William Dudley Pelley"
+	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
+	picture = "Portrait_USA_William_Dudley_Pelley.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Earl Browder"
+	desc = "POLITICS_EARL_BROWDER_DESC"
+	picture = "portrait_USA_earl_browder.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+
+
+create_field_marshal = {
+	name = "Dwight D. Eisenhower"
+	picture = "Portrait_USA_Dwight_D_Eisenhower.dds"
+	traits = { logistics_wizard organizer offensive_doctrine trait_cautious armor_officer politically_connected }
+	skill = 5
+	id = 602
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Mark Clark"
+	picture = "Portrait_USA_Mark_W_Clark.dds"
+	traits = { infantry_officer trait_reckless }
+	skill = 4
+
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}

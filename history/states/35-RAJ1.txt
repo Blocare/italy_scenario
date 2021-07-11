@@ -1,0 +1,14 @@
+state={
+	id=35
+	name="RAJ1"
+		history={
+		owner = RAJ
+		add_core_of = RAJ
+
+	}
+	provinces={
+		2380 4341 6780 16891 16926 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
