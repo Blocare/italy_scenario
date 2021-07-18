@@ -1,0 +1,26 @@
+focus_tree = {
+	id = 1
+	continuous_focus_position = { x = 0 y = 1000 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KOI
+		}
+	}
+	#War with Germany!
+	focus = {
+		id = KOI_war_with_ger
+		icon = GFX_focus_attack_germany
+		x = 0
+		y = 0
+		cost = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			
+		}
+	}
+
+}
